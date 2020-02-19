@@ -17,6 +17,11 @@ RUN apk --no-cache add \
         libmcrypt-dev \
         openssh-client \
         icu-dev \
+        libxml2-dev \
+        freetype-dev \
+        libjpeg-turbo-dev \
+        libpng-dev \
+        supervisor \
         autoconf \
         wget \
         libzip-dev \
@@ -24,6 +29,7 @@ RUN apk --no-cache add \
         dpkg \
         file \
         imap-dev \
+        wkhtmltopdf \
         g++ \
         gcc \
         libc-dev \
@@ -33,6 +39,7 @@ RUN apk --no-cache add \
         alpine-sdk \
         zip \
         poppler-utils \
+        msttcorefonts-installer \
         fontconfig
 
 # Add SSH config
